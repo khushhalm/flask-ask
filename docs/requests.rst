@@ -237,6 +237,7 @@ To use Flask-Ask's context locals, just import them::
 
     from flask import App
     from flask_ask import Ask, request, context, session, version
+    import logging
 
     app = Flask(__name__)
     ask = Ask(app)
